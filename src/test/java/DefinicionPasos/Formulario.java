@@ -108,7 +108,7 @@ public class Formulario {
     @Entonces("se muestra registro correcto")
     public void se_muestra_registro_correcto() {
 
-        //Mostrar en consola info despues del login
+        //Mostrar en consola info despues del login.
         System.out.printf(driver.findElement(By.xpath("/html/body/ui-view/unauthenticated-container/div/div/div/ui-view/div/div/div/div[1]/div/h1")).getText());
         driver.close();
     }
