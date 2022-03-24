@@ -1,3 +1,4 @@
+#Autor: Jhon Martinez
 #language: es
 Característica: Registro en formulario
   como usuario se pretende registrar
