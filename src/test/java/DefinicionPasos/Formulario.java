@@ -38,10 +38,10 @@ public class Formulario {
         driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
         driver.findElement(By.id("firstName")).sendKeys("Jhon Alexander");
         driver.findElement(By.id("lastName")).sendKeys("Martinez Becerra");
-        driver.findElement(By.id("email")).sendKeys("jhx_b4ss62cS@fuluj.com");
+        driver.findElement(By.id("email")).sendKeys("jhonmartinez@gmail.com");
         driver.findElement(By.id("birthMonth")).sendKeys("September");
         driver.findElement(By.id("birthDay")).sendKeys("10");
-        driver.findElement(By.id("birthYear")).sendKeys("1990");
+        driver.findElement(By.id("birthYear")).sendKeys("1993");
 
         //Next
         driver.findElement(By.className("row")).click();
@@ -84,7 +84,7 @@ public class Formulario {
         driver.findElement(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/span")).click();
         driver.findElement(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/input[1]")).sendKeys("Spanish");
         driver.findElement(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/input[1]")).sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
-        
+
         //Mobile
         driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
         driver.findElement(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[2]/div/div[1]/span")).click();
